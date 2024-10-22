@@ -1,0 +1,5 @@
+2024-10-19 20:26:20.562 [info] Started local extension host with pid 2932.
+2024-10-19 20:26:20.600 [info] Started initializing default profile extensions in extensions installation folder. file:///home/alex/.vscode-oss/extensions
+2024-10-19 20:26:20.737 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/alex/.vscode-oss/extensions
+2024-10-19 20:26:23.619 [info] [perf] Render performance baseline is 144ms
+2024-10-19 20:28:19.012 [error] [network] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

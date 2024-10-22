@@ -1,0 +1,6 @@
+01:20:39 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+01:20:39 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+01:20:39 INF [API] listening addr=127.0.0.1:44855
+01:20:39 INF [Config] initial compatible provider name=故障转移
+01:20:39 INF [Config] initial compatible provider name=自动选择
+01:20:39 INF [Config] initial compatible provider name=Bitz Net
