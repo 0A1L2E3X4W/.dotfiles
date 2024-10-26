@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+.side_bar {
+    float: left;
+    width: 160px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.content {
+    float: left;
+    border: 2px solid black;
+    padding-left: 10px;
+}

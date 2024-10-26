@@ -1,0 +1,28 @@
+2024-10-19 20:28:43.055 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-10-19 20:28:44.630 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2024-10-19 20:28:45.157 [info] Installing extension: catppuccin.catppuccin-vsc {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json","path":"/home/alex/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-19 20:28:45.584 [info] Installing extension: catppuccin.catppuccin-vsc-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json","path":"/home/alex/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-19 20:28:46.977 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-19 20:28:46.977 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2024-10-19 20:28:46.994 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.15.2-universal: catppuccin.catppuccin-vsc
+2024-10-19 20:28:46.998 [info] Renamed to /home/alex/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.15.2-universal
+2024-10-19 20:28:47.006 [info] Extension installed successfully: catppuccin.catppuccin-vsc vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-10-19 20:28:47.081 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-19 20:28:48.302 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-19 20:28:48.302 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-icons
+2024-10-19 20:28:49.586 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.17.0-universal: catppuccin.catppuccin-vsc-icons
+2024-10-19 20:28:49.600 [info] Renamed to /home/alex/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.17.0-universal
+2024-10-19 20:28:49.609 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-10-19 20:28:49.683 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

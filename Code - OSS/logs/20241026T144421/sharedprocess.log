@@ -1,0 +1,14 @@
+2024-10-26 14:45:23.401 [info] Getting Manifest... abusaidm.html-snippets
+2024-10-26 14:45:25.843 [info] Installing extension: abusaidm.html-snippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json","path":"/home/alex/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-26 14:45:27.488 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-26 14:45:27.488 [info] Extension signature verification is not done: abusaidm.html-snippets
+2024-10-26 14:45:27.501 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/abusaidm.html-snippets-0.2.1-universal: abusaidm.html-snippets
+2024-10-26 14:45:27.503 [info] Renamed to /home/alex/.vscode-oss/extensions/abusaidm.html-snippets-0.2.1-universal
+2024-10-26 14:45:27.514 [info] Extension installed successfully: abusaidm.html-snippets vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-10-26 14:45:27.586 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

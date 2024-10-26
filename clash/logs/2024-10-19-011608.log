@@ -1,0 +1,12 @@
+01:16:08 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+01:16:08 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+01:16:08 INF [API] listening addr=127.0.0.1:45883
+01:16:08 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=gvisor inet=198.18.0.1/16
+01:17:39 INF [Config] initial compatible provider name=故障转移
+01:17:39 INF [Config] initial compatible provider name=自动选择
+01:17:39 INF [Config] initial compatible provider name=Bitz Net
+01:17:39 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=gvisor inet=198.18.0.1/16
+01:17:41 INF [Config] initial compatible provider name=故障转移
+01:17:41 INF [Config] initial compatible provider name=自动选择
+01:17:41 INF [Config] initial compatible provider name=Bitz Net
+01:17:41 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=gvisor inet=198.18.0.1/16

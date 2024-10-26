@@ -1,0 +1,4 @@
+00:08:34 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+00:08:34 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+00:08:34 INF [API] listening addr=127.0.0.1:41991
+00:08:34 ERR [Inbound] start failed error=operation not permitted type=TUN stackType=gvisor inet=198.18.0.1/16

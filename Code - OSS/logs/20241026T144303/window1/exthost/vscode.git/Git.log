@@ -1,0 +1,42 @@
+2024-10-26 14:43:05.459 [info] [main] Log level: Info
+2024-10-26 14:43:05.459 [info] [main] Validating found git in: "git"
+2024-10-26 14:43:05.459 [info] [main] Using git "2.47.0" from "git"
+2024-10-26 14:43:05.459 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-26 14:43:05.459 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-26 14:43:30.460 [info] [main] Log level: Info
+2024-10-26 14:43:30.460 [info] [main] Validating found git in: "git"
+2024-10-26 14:43:30.460 [info] [main] Using git "2.47.0" from "git"
+2024-10-26 14:43:30.460 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-26 14:43:30.460 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-26 14:43:30.460 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-26 14:43:30.467 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:43:30.467 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-26 14:43:30.473 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-26 14:43:30.480 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-26 14:43:30.488 [info] [Model][openRepository] Opened repository: /home/alex/programming/personal_blog
+2024-10-26 14:43:30.502 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:43:30.502 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-26 14:43:30.502 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-26 14:43:30.503 [info] > git config --get commit.template [7ms]
+2024-10-26 14:43:30.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-26 14:43:30.657 [info] > git status -z -uall [6ms]
+2024-10-26 14:43:30.658 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-26 14:43:30.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-26 14:43:30.682 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-26 14:43:30.682 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-26 14:43:30.687 [info] > git config --get commit.template [14ms]
+2024-10-26 14:43:30.711 [info] > git reflog main --grep-reflog=branch: Created from *. [24ms]
+2024-10-26 14:43:30.722 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-10-26 14:43:30.722 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-26 14:43:30.722 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-26 14:43:30.734 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-10-26 14:43:30.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-10-26 14:43:30.740 [info] > git diff --name-status -z --diff-filter=ADMR 67ae326a41ce10ca8283aaf6bcd7df2928dc9440...refs/remotes/origin/main [1ms]
+2024-10-26 14:43:30.751 [info] > git status -z -uall [5ms]
+2024-10-26 14:43:30.752 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-26 14:43:31.112 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-26 14:43:32.068 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-26 14:43:32.324 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:43:32.324 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-26 14:44:08.017 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-26 14:44:08.017 [info] fatal: not a git repository (or any of the parent directories): .git

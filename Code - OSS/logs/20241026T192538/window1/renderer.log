@@ -1,0 +1,7 @@
+2024-10-26 19:25:39.746 [info] Started local extension host with pid 2235.
+2024-10-26 19:25:42.560 [info] [perf] Render performance baseline is 144ms
+2024-10-26 19:40:17.769 [error] [network] #2: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2024-10-26 19:40:52.599 [info] Started local extension host with pid 3354.
+2024-10-26 20:07:17.134 [error] [network] #8: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2024-10-26 22:43:43.627 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-26 22:53:02.519 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

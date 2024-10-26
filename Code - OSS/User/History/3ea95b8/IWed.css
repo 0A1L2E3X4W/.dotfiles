@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.side_bar {
+    float: left;
+    width: 20%;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.content {
+    float: left;
+    width: 80%;
+    border: 2px solid black;
+    padding-left: 10px;
+}

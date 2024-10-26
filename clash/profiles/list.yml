@@ -1,0 +1,22 @@
+files:
+  - url: ""
+    time: 1729267375511.yml
+    name: config.yaml
+    selected: []
+  - time: 1729271859143.yml
+    name: Bitz+Net
+    url: https://let.bnsubservdom.com/api/v1/client/subscribe?token=55d601a8e2e302a84235f6a38add98e5
+    selected:
+      - name: Bitz Net
+        now: 🇺🇸 美国-广东专线 BGP 1
+      - name: GLOBAL
+        now: 🇺🇸 美国-广东专线 BGP 1
+    interval: 24
+    subInfo:
+      upload: 331548265
+      download: 10902215537
+      total: 85899345920
+      expire: 1741475215
+    homeWeb: https://my.bitzconnect.com
+    mode: global
+index: 1

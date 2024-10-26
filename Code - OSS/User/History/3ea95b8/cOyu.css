@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.side_bar, .content {
+    border: 2px solid black;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.side_bar {
+    float: left;
+    width: 20%;
+}
+
+.content {
+    float: left;
+    width: 80%;
+}

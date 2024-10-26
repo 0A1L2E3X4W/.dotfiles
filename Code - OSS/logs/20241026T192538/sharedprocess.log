@@ -1,0 +1,28 @@
+2024-10-26 19:40:22.796 [info] Getting Manifest... ritwickdey.liveserver
+2024-10-26 19:40:25.312 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json","path":"/home/alex/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-26 19:40:28.785 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-26 19:40:28.785 [info] Extension signature verification is not done: ritwickdey.liveserver
+2024-10-26 19:40:30.931 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2024-10-26 19:40:30.943 [info] Renamed to /home/alex/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal
+2024-10-26 19:40:30.954 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-10-26 19:40:31.027 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-26 20:07:23.619 [info] Getting Manifest... esbenp.prettier-vscode
+2024-10-26 20:07:25.617 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json","path":"/home/alex/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-26 20:07:28.220 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-26 20:07:28.220 [info] Extension signature verification is not done: esbenp.prettier-vscode
+2024-10-26 20:07:28.311 [info] Extracted extension to file:///home/alex/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal: esbenp.prettier-vscode
+2024-10-26 20:07:28.325 [info] Renamed to /home/alex/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal
+2024-10-26 20:07:28.336 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/alex/.vscode-oss/extensions/extensions.json
+2024-10-26 20:07:28.406 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alex/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

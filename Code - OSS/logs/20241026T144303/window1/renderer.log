@@ -1,0 +1,14 @@
+2024-10-26 14:43:04.855 [info] Started local extension host with pid 4477.
+2024-10-26 14:43:05.571 [error] Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.: CodeExpectedError: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.
+    at Bit.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:11660)
+    at Bit.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:9128)
+    at Bit.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:9019)
+    at async Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:8769)
+2024-10-26 14:43:07.621 [info] [perf] Render performance baseline is 144ms
+2024-10-26 14:43:29.847 [info] Started local extension host with pid 4548.
+2024-10-26 14:43:30.499 [error] Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.: CodeExpectedError: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.
+    at Bit.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:11660)
+    at Bit.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:9128)
+    at Bit.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:9019)
+    at async Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3072:8769)
+2024-10-26 14:43:32.539 [info] [perf] Render performance baseline is 142ms

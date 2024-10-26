@@ -1,0 +1,8 @@
+_HiStOrY_V2_
+bankAccount(laila,\040current,\040Amount).
+bankAccount(A,\040B,\040C).
+language(java,\040highLevel).
+teaching().
+teaching(X).
+teaching(masm).
+translator(assembler,\040X).
