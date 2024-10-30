@@ -2,7 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/alex/programming": "__default__profile__"
+            "file:///home/alex/programming": "__default__profile__",
+            "file:///home/alex/programming/github_blog": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -14,7 +15,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/alex/programming"
+                "folderUri": "file:///home/alex/programming/github_blog"
             }
         ],
         "emptyWindows": []
@@ -69,11 +70,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/alex/programming/github_blog",
+                                        "path": "/home/alex/programming/github_blog",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/programming/github_blog"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -123,11 +134,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -142,6 +155,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -220,11 +240,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -425,8 +447,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -1668,15 +1689,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 0,
             "statusBarHeight": 0,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/alex/programming",
-            "backupPath": "/home/alex/.config/Code - OSS/Backups/1db88e351bb0eb5f3a57b6342b5b45f7",
+            "folder": "file:///home/alex/programming/github_blog",
+            "backupPath": "/home/alex/.config/Code - OSS/Backups/7fffbc8ee7441db1198fc8afa8383401",
             "uiState": {
                 "mode": 1,
                 "x": 13,

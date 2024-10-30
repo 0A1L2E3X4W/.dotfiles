@@ -1,0 +1,120 @@
+2024-10-28 20:18:56.124 [info] [main] Log level: Info
+2024-10-28 20:18:56.124 [info] [main] Validating found git in: "git"
+2024-10-28 20:18:56.124 [info] [main] Using git "2.47.0" from "git"
+2024-10-28 20:18:56.124 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-28 20:18:56.124 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-28 20:18:56.124 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:18:56.124 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-28 20:18:56.124 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-28 20:18:56.124 [info] [Model][openRepository] Opened repository: /home/alex/programming/github_blog
+2024-10-28 20:18:56.125 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-28 20:18:56.125 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:18:56.126 [info] > git config --get commit.template [8ms]
+2024-10-28 20:18:56.333 [info] > git rev-parse --show-toplevel [58ms]
+2024-10-28 20:18:56.333 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:18:56.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-10-28 20:18:56.352 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-28 20:18:56.371 [info] > git status -z -uall [6ms]
+2024-10-28 20:18:56.371 [info] > git rev-parse --show-toplevel [13ms]
+2024-10-28 20:18:56.378 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-28 20:18:56.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-28 20:18:56.403 [info] > git rev-parse --show-toplevel [27ms]
+2024-10-28 20:18:56.412 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-10-28 20:18:56.412 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-28 20:18:56.418 [info] > git config --get commit.template [22ms]
+2024-10-28 20:18:56.506 [info] > git reflog main --grep-reflog=branch: Created from *. [89ms]
+2024-10-28 20:18:56.512 [info] > git rev-parse --show-toplevel [102ms]
+2024-10-28 20:18:56.556 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [45ms]
+2024-10-28 20:18:56.556 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-28 20:18:56.556 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-28 20:18:56.565 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-10-28 20:18:56.571 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-28 20:18:56.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-10-28 20:18:56.579 [info] > git diff --name-status -z --diff-filter=ADMR 4249223cb7c5feae9bdaf1d8b799b038286b1d5e...refs/remotes/origin/main [9ms]
+2024-10-28 20:18:56.589 [info] > git rev-parse --show-toplevel [13ms]
+2024-10-28 20:18:56.623 [info] > git status -z -uall [10ms]
+2024-10-28 20:18:56.623 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-28 20:18:56.623 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-28 20:18:56.630 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2024-10-28 20:18:56.634 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-28 20:18:56.634 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:18:56.642 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-28 20:18:56.642 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:18:57.547 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 20:18:58.012 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-28 20:18:58.012 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:19:09.911 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-28 20:19:09.912 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-28 20:19:11.194 [info] [main] Log level: Info
+2024-10-28 20:19:11.194 [info] [main] Validating found git in: "git"
+2024-10-28 20:19:11.194 [info] [main] Using git "2.47.0" from "git"
+2024-10-28 20:19:11.194 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-28 20:19:11.194 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-28 20:19:11.231 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-28 20:19:11.240 [info] [Model][openRepository] Opened repository: /home/alex/programming/github_blog
+2024-10-28 20:19:11.250 [info] > git config --get commit.template [2ms]
+2024-10-28 20:19:11.265 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-28 20:19:11.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [111ms]
+2024-10-28 20:19:11.392 [info] > git rev-parse --show-toplevel [18ms]
+2024-10-28 20:19:11.428 [info] > git status -z -uall [24ms]
+2024-10-28 20:19:11.428 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-10-28 20:19:11.440 [info] > git rev-parse --show-toplevel [41ms]
+2024-10-28 20:19:11.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-10-28 20:19:11.459 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-28 20:19:11.459 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-28 20:19:11.465 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-28 20:19:11.465 [info] > git config --get commit.template [20ms]
+2024-10-28 20:19:11.500 [info] > git rev-parse --show-toplevel [30ms]
+2024-10-28 20:19:11.500 [info] > git reflog main --grep-reflog=branch: Created from *. [35ms]
+2024-10-28 20:19:11.515 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2024-10-28 20:19:11.516 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-28 20:19:11.516 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-28 20:19:11.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-10-28 20:19:11.525 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-10-28 20:19:11.531 [info] > git rev-parse --show-toplevel [19ms]
+2024-10-28 20:19:11.540 [info] > git diff --name-status -z --diff-filter=ADMR 4249223cb7c5feae9bdaf1d8b799b038286b1d5e...refs/remotes/origin/main [9ms]
+2024-10-28 20:19:11.541 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-28 20:19:11.541 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-28 20:19:11.553 [info] > git status -z -uall [6ms]
+2024-10-28 20:19:11.554 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-28 20:19:11.785 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 20:19:22.063 [info] > git show --textconv :README.md [9ms]
+2024-10-28 20:19:22.124 [info] > git ls-files --stage -- /home/alex/programming/github_blog/README.md [62ms]
+2024-10-28 20:19:22.137 [info] > git cat-file -s acf9325ea68392ac7db25be906bb9576217fa0bb [4ms]
+2024-10-28 20:19:22.738 [info] > git show --textconv :LICENSE [6ms]
+2024-10-28 20:19:22.739 [info] > git ls-files --stage -- /home/alex/programming/github_blog/LICENSE [1ms]
+2024-10-28 20:19:22.746 [info] > git cat-file -s 3f7550a88da3ef3d44a7986cf36122212336dd0c [1ms]
+2024-10-28 20:19:23.616 [info] > git show --textconv :index.md [6ms]
+2024-10-28 20:19:23.616 [info] > git ls-files --stage -- /home/alex/programming/github_blog/index.md [1ms]
+2024-10-28 20:19:23.622 [info] > git cat-file -s 5d4c4b6e1c43d8dc2e92a8e57c0cf824e20142bf [1ms]
+2024-10-28 20:19:28.865 [info] > git show --textconv :Gemfile.lock [7ms]
+2024-10-28 20:19:28.866 [info] > git ls-files --stage -- /home/alex/programming/github_blog/Gemfile.lock [1ms]
+2024-10-28 20:19:28.872 [info] > git cat-file -s 140acfe74c135cba8265b12b0e6682c024ac578a [1ms]
+2024-10-28 20:19:35.490 [info] > git show --textconv :Gemfile [7ms]
+2024-10-28 20:19:35.490 [info] > git ls-files --stage -- /home/alex/programming/github_blog/Gemfile [1ms]
+2024-10-28 20:19:35.497 [info] > git cat-file -s a3d93869540fda6c1ea54d31cf291b52f90b047d [2ms]
+2024-10-28 20:19:39.658 [info] > git show --textconv :about.md [7ms]
+2024-10-28 20:19:39.658 [info] > git ls-files --stage -- /home/alex/programming/github_blog/about.md [1ms]
+2024-10-28 20:19:39.664 [info] > git cat-file -s 175be2ea64ba5897e55b1ac61fbdc81637583ff2 [1ms]
+2024-10-28 20:19:44.204 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 20:19:52.980 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 20:19:56.571 [info] > git show --textconv :_layouts/page.html [10ms]
+2024-10-28 20:19:56.572 [info] > git ls-files --stage -- /home/alex/programming/github_blog/_layouts/page.html [3ms]
+2024-10-28 20:19:56.580 [info] > git cat-file -s 5e7112684af455284afbddb3a0b289ee21b8db69 [1ms]
+2024-10-28 20:19:58.898 [info] > git show --textconv :_layouts/post.html [6ms]
+2024-10-28 20:19:58.898 [info] > git ls-files --stage -- /home/alex/programming/github_blog/_layouts/post.html [1ms]
+2024-10-28 20:19:58.904 [info] > git cat-file -s 5e7112684af455284afbddb3a0b289ee21b8db69 [1ms]
+2024-10-28 20:20:00.509 [info] > git show --textconv :_layouts/page.html [7ms]
+2024-10-28 20:20:00.510 [info] > git ls-files --stage -- /home/alex/programming/github_blog/_layouts/page.html [2ms]
+2024-10-28 20:20:00.517 [info] > git cat-file -s 5e7112684af455284afbddb3a0b289ee21b8db69 [1ms]
+2024-10-28 20:20:01.091 [info] > git show --textconv :_layouts/home.html [6ms]
+2024-10-28 20:20:01.091 [info] > git ls-files --stage -- /home/alex/programming/github_blog/_layouts/home.html [1ms]
+2024-10-28 20:20:01.097 [info] > git cat-file -s 9e050fec208f7fe4e5a20b7c4899c47c830caf73 [1ms]
+2024-10-28 20:31:53.836 [info] > git show --textconv :.gitignore [7ms]
+2024-10-28 20:31:53.836 [info] > git ls-files --stage -- /home/alex/programming/github_blog/.gitignore [1ms]
+2024-10-28 20:31:53.843 [info] > git cat-file -s 2ca868298ced3ff66aa1a7a42a23c3360d11ef41 [1ms]
+2024-10-28 20:34:51.517 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-28 20:34:59.682 [info] > git config --get commit.template [8ms]
+2024-10-28 20:34:59.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-28 20:34:59.697 [info] > git status -z -uall [7ms]
+2024-10-28 20:34:59.698 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]

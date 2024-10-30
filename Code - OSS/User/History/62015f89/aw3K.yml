@@ -1,0 +1,16 @@
+# Example Site settings
+
+#google_analytics: UA-NNNNNNNN-N
+
+header_pages:
+  - index.md
+  - blogs.md
+  - about.md
+
+footer: 'My <a href="https://github.com/0A1L2E3X4W/">Github</a> Page'
+
+style: dark # light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
+
+plugins:
+  - jekyll-seo-tag

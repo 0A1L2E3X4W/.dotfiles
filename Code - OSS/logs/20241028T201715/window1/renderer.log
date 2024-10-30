@@ -1,0 +1,17 @@
+2024-10-28 20:17:16.056 [error] Error: The editor could not be opened because the file was not found.
+    at Dme.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2068:31797)
+    at async Dme.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2068:30955)
+    at async NVe.U (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:667:100849)
+    at async NVe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:667:99400)
+    at async NVe.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:667:98482)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:779:23636
+2024-10-28 20:17:16.100 [info] Started local extension host with pid 3475.
+2024-10-28 20:17:18.498 [error] Error: The editor could not be opened because the file was not found.
+    at Dme.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2068:31797)
+    at async Dme.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2068:30955)
+    at async NVe.U (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:667:100849)
+    at async NVe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:667:99400)
+    at async NVe.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:667:98482)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:779:23636
+2024-10-28 20:17:18.958 [info] [perf] Render performance baseline is 160ms
+2024-10-28 20:18:36.539 [info] Started local extension host with pid 3636.

@@ -1,0 +1,5 @@
+2024-10-28 20:18:55.529 [info] Started local extension host with pid 3929.
+2024-10-28 20:18:58.369 [info] [perf] Render performance baseline is 160ms
+2024-10-28 20:19:09.850 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.untitledWorkspace
+2024-10-28 20:19:10.374 [info] Started local extension host with pid 4075.
+2024-10-28 20:19:13.112 [info] [perf] Render performance baseline is 143ms
